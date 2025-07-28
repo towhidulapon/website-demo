@@ -1,0 +1,1379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Title -->
+  <title> Bima </title>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/images/logo/favicon.png">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- Fontasosome -->
+  <link rel="stylesheet" href="assets/css/fontasosome.min.css">
+  <!-- Slick -->
+  <link rel="stylesheet" href="assets/css/slick.css">
+  <!-- img uploader  -->
+   <link rel="stylesheet" href="assets/css/img-uploader.main.css">
+  <!-- select2 css  -->
+   <link rel="stylesheet" href="assets/css/select2.min.css">
+   <!-- odometer css  -->
+    <link rel="stylesheet" href="assets/css/odometer.css">
+  <!-- line awesome -->
+  <link rel="stylesheet" href="assets/css/line-awesome.min.css">
+  <!-- Main css -->
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+  <!--==================== Preloader Start ====================-->
+<div class="preloader">
+    <div class="loader-p"></div>
+</div>
+<!--==================== Preloader End ====================-->
+  <!--==================== Overlay Start ====================-->
+  <div class="body-overlay"></div>
+  <!--==================== Overlay End ====================-->
+
+  <!--==================== Sidebar Overlay End ====================-->
+  <div class="sidebar-overlay"></div>
+  <!--==================== Sidebar Overlay End ====================-->
+
+  <!-- ==================== Scroll to Top End Here ==================== -->
+  <a class="scroll-top"><i class="fas fa-angle-double-up"></i></a>
+  <!-- ==================== Scroll to Top End Here ==================== -->
+
+<!-- ==================== Header Start Here ==================== -->
+<header class="header" id="header">
+    <div class="container">
+        <nav class="navbar navbar-expand-xl navbar-light">
+            <a class="navbar-brand logo" href="index.html">
+                <img src="assets/images/logo/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler header-button" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                aria-label="Toggle navigation">
+                <span id="hiddenNav"><i class="las la-bars"></i></span>
+            </button>
+            <div class="offcanvas border-0 offcanvas-end" tabindex="-1" id="offcanvasDarkNavbar">
+                <div class="offcanvas-header">
+                    <a class="logo navbar-brand" href="index.html">
+                        <img src="assets/images/logo/logo.png" alt="">
+                    </a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+                    </button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav nav-menu align-items-xl-center w-100">
+
+                        <li class="nav-item active">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
+                                Our Services <span class="nav-item__icon"><i class="las la-angle-down"></i></span>
+                            </a>
+                            <ul class="dropdown-menu header-dropdown">
+                                <li class="dropdown-menu__list">
+                                    <a class="dropdown-item dropdown-menu__link" href="insurance.html"> Insurance </a>
+                                </li>
+                                <li class="dropdown-menu__list">
+                                    <a class="dropdown-item dropdown-menu__link" href="dashboard.html"> Dashboard </a>
+                                </li>
+                                <li class="dropdown-menu__list">
+                                    <a class="dropdown-item dropdown-menu__link" href="#"> Dropdown 3 </a>
+                                </li>
+                                <li class="dropdown-menu__list">
+                                    <a class="dropdown-item dropdown-menu__link" href="#"> Dropdown 4 </a>
+                                </li>
+                                <li class="dropdown-menu__list">
+                                    <a class="dropdown-item dropdown-menu__link" href="#"> Dropdown 5 </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> Claims </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html"> Blog </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html"> Contact Us </a>
+                        </li>
+                        <li class="nav-item d-xl-none d-block">
+                            <div class="account-btn-groups d-flex justify-content-between gap-2 align-items-center">
+                                <a href="login.html" class="btn btn--white"> Log In </a>
+                                <a href="registration.html" class="btn btn--base">
+                                    Register Now
+                                </a>
+                                <div class="dropdown lang-box">
+                                    <button class="lang-box-btn" data-bs-toggle="dropdown">
+                                        <span class="thumb">
+                                            <img class="fit-image" src="assets/images/thumbs/s-1.jpg" alt="en">
+                                        </span>
+                                        <span class="text">English</span>
+                                        <span class="icon">
+                                            <i class="fas fa-angle-down"></i>
+                                        </span>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li class="lang-box-item" data-code="en">
+                                            <a href="" class="lang-box-link">
+                                                <div class="thumb">
+                                                    <img class="fit-image" src="assets/images/thumbs/s-1.jpg" alt="en">
+                                                </div>
+                                                <span class="text">English</span>
+                                            </a>
+                                        </li>
+                                        <li class="lang-box-item selected" data-code="hn">
+                                            <a href="" class="lang-box-link">
+                                                <div class="thumb">
+                                                    <img class="fit-image" src="assets/images/thumbs/s-4.jpg" alt="en">
+                                                </div>
+                                                <span class="text">Bangla</span>
+                                            </a>
+                                        </li>
+                                        <li class="lang-box-item" data-code="es">
+                                            <a href="" class="lang-box-link">
+                                                <div class="thumb">
+                                                    <img class="fit-image" src="assets/images/thumbs/s-3.jpg" alt="en">
+                                                </div>
+                                                <span class="text">Spanish</span>
+                                            </a>
+                                        </li>
+                                        <li class="lang-box-item" data-code="es">
+                                            <a href="" class="lang-box-link">
+                                                <div class="thumb">
+                                                    <img class="fit-image" src="assets/images/thumbs/s-2.jpg" alt="hi">
+                                                </div>
+                                                <span class="text">Hindi</span>
+                                            </a>
+                                        </li>
+                
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header-right d-none d-xl-flex">
+                <div class="dropdown lang-box">
+                    <button class="lang-box-btn" data-bs-toggle="dropdown">
+                        <span class="thumb">
+                            <img class="fit-image" src="assets/images/thumbs/s-1.jpg" alt="en">
+                        </span>
+                        <span class="text">English</span>
+                        <span class="icon">
+                            <i class="fas fa-angle-down"></i>
+                        </span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li class="lang-box-item" data-code="en">
+                            <a href="" class="lang-box-link">
+                                <div class="thumb">
+                                    <img class="fit-image" src="assets/images/thumbs/s-1.jpg" alt="en">
+                                </div>
+                                <span class="text">English</span>
+                            </a>
+                        </li>
+                        <li class="lang-box-item selected" data-code="hn">
+                            <a href="" class="lang-box-link">
+                                <div class="thumb">
+                                    <img class="fit-image" src="assets/images/thumbs/s-4.jpg" alt="en">
+                                </div>
+                                <span class="text">Bangla</span>
+                            </a>
+                        </li>
+                        <li class="lang-box-item" data-code="es">
+                            <a href="" class="lang-box-link">
+                                <div class="thumb">
+                                    <img class="fit-image" src="assets/images/thumbs/s-3.jpg" alt="en">
+                                </div>
+                                <span class="text">Spanish</span>
+                            </a>
+                        </li>
+                        <li class="lang-box-item" data-code="es">
+                            <a href="" class="lang-box-link">
+                                <div class="thumb">
+                                    <img class="fit-image" src="assets/images/thumbs/s-2.jpg" alt="hi">
+                                </div>
+                                <span class="text">Hindi</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <a href="login.html" class="btn btn--white"> Log In </a>
+                <a href="registration.html" class="btn btn--base">
+                    Register Now
+                </a>
+            </div>
+        </nav>
+    </div>
+</header>
+<!-- ==================== Header End Here ==================== -->
+<main>
+    <!--========================== Banner Section Start ==========================-->
+<section class="banner-section">
+    <div class="banner-section__shape">
+        <img src="assets/images/shapes/bs-1.png" alt="">
+    </div>
+    <div class="container">
+        <div class="banner-container">
+            <div class="row align-items-center gy-4">
+                <div class="col-lg-7">
+                    <div class="banner-content">
+                        <span class="banner-content__subtitle"> Protect What Matters Most </span>
+                        <h2 class="banner-content__title"> Tailored Insurance Solutions for Your Life, Health, and Future. </h2>
+                        <p class="banner-content__desc"> Your peace of mind starts here with reliable coverage you 
+                            can trust.</p>
+                        <div class="banner-content__button flex-wrap d-flex align-items-center gap-3">
+                            <button class="btn--base btn btn--lg"> Get a Free Quote </button>
+                            <a href="#" class="btn btn--white btn--lg"> Register Now </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 ps-xl-5">
+                    <div class="banner-thumb-wrapper">
+                        <div class="banner-thumb">
+                            <img src="assets/images/thumbs/b-1.png" alt="">
+                        </div>
+                        <div class="banner-thumb-wrapper__client">
+                            <h3 class="title"> 25K </h3>
+                            <p class="text"> Happy Customer </p>
+                            <img src="assets/images/thumbs/b-2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="category-container">
+            <div class="row gy-4 justify-content-center">
+                <div class="col-xxl-2 col-md-4 col-sm-6">
+                    <a href="#" class="category-item">
+                        <div class="category-item__thumb">
+                            <img src="assets/images/icons/c-1.png" alt="">
+                        </div>
+                        <p class="category-item__title"> Health Insurance </p>
+                    </a>
+                </div>
+                <div class="col-xxl-2 col-md-4 col-sm-6">
+                    <a href="#" class="category-item">
+                        <div class="category-item__thumb">
+                            <img src="assets/images/icons/c-2.png" alt="">
+                        </div>
+                        <p class="category-item__title"> Travel Insurance </p>
+                    </a>
+                </div>
+                <div class="col-xxl-2 col-md-4 col-sm-6">
+                    <a href="#" class="category-item">
+                        <div class="category-item__thumb">
+                            <img src="assets/images/icons/c-3.png" alt="">
+                        </div>
+                        <p class="category-item__title"> Accident Insurance </p>
+                    </a>
+                </div>
+                <div class="col-xxl-2 col-md-4 col-sm-6">
+                    <a href="#" class="category-item">
+                        <div class="category-item__thumb">
+                            <img src="assets/images/icons/c-4.png" alt="">
+                        </div>
+                        <p class="category-item__title"> Car Insurance </p>
+                    </a>
+                </div>
+                <div class="col-xxl-2 col-md-4 col-sm-6">
+                    <a href="#" class="category-item">
+                        <div class="category-item__thumb">
+                            <img src="assets/images/icons/c-5.png" alt="">
+                        </div>
+                        <p class="category-item__title"> Motorcycle Insurance </p>
+                    </a>
+                </div>
+                <div class="col-xxl-2 col-md-4 col-sm-6">
+                    <a href="#" class="category-item">
+                        <div class="category-item__thumb">
+                            <img src="assets/images/icons/c-6.png" alt="">
+                        </div>
+                        <p class="category-item__title"> Life Insurance </p>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!--========================== Banner Section End ==========================-->
+    <!--================ area section start here ================ -->
+<div class="area-section py-60 bg-img"  data-background-image="assets/images/shapes/c-1.png" alt="">
+    <div class="left-bg"></div>
+    <div class="right-bg"></div>
+    <div class="container">
+        <div class="section-heading style-left">
+            <h2 class="section-heading__title"> Get Your Free Quote in Minutes </h2>
+            <p class="section-heading__desc"> Quick, Easy, and Personalized – Discover the right coverage for your needs today. </p>
+        </div>
+        <form action="#" class="area-form">
+            <div class="row gy-4 align-items-end">
+                <div class="col-lg-5 col-md-4">
+                    <label class="form--label"> Phone Number </label>
+                    <div class="input-group">
+                        <div class="input-group-text">
+                            <select class="form-select form--control">
+                                <option selected> US</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                              </select>
+                        </div>
+                        <input type="text" class="form-control form--control">
+                      </div>
+                </div>
+                <div class="col-lg-5 col-md-4">
+                    <label  class="form--label"> Select Your Topic </label>
+                    <select class="form-select form--control select2">
+                        <option selected> Select team member </option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <button type="button" class="btn--white btn w-100"> Submit </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<!--================= area section end here ================ -->
+
+    <!--=============== why choose section start here =============== -->
+<div class="choose-us-section py-60">
+    <span class="left-bg"></span>
+    <span class="right-bg"></span>
+    <div class="container">
+        <div class="section-heading">
+            <h2 class="section-heading__title">
+                <span class="d-block"> Why Choose Us? </span>
+                Outstanding Features You Can Rely On
+            </h2>
+            <p class="section-heading__desc"> Protecting what matters most with plans trusted by thousands. </p>
+        </div>
+        <div class="choose-us-wrapper">
+            <div class="choose-us-slider">
+                <div class="choose-us-card">
+                    <div class="choose-us-card__thumb">
+                        <div class="choose-us-card__thumb-inner">
+                            <img  class="image1" src="assets/images/thumbs/ch-2.png" alt="">
+                            <img class="image2" src="assets/images/thumbs/ch-2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="choose-us-card__content">
+                        <h4 class="choose-us-card__title">
+                            Affordable Premiums
+                        </h4>
+                        <p class="choose-us-card__desc">
+                            Get the protection you deserve at rates that fit your budget.
+                        </p>
+                    </div>
+                </div>
+                <div class="choose-us-card">
+                    <div class="choose-us-card__thumb">
+                        <div class="choose-us-card__thumb-inner">
+                            <img  class="image1" src="assets/images/thumbs/ch-3.png" alt="">
+                            <img class="image2" src="assets/images/thumbs/ch-3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="choose-us-card__content">
+                        <h4 class="choose-us-card__title">
+                            Easy Claims Process
+                        </h4>
+                        <p class="choose-us-card__desc">
+                            Quick, hassle-free claims with 95% approval rates and 24/7 assistance.
+                        </p>
+                    </div>
+                </div>
+                <div class="choose-us-card">
+                    <div class="choose-us-card__thumb">
+                        <div class="choose-us-card__thumb-inner">
+                            <img  class="image1" src="assets/images/thumbs/ch-1.png" alt="">
+                            <img class="image2" src="assets/images/thumbs/ch-1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="choose-us-card__content">
+                        <h4 class="choose-us-card__title">
+                            Tailored Coverage
+                        </h4>
+                        <p class="choose-us-card__desc">
+                            Customizable plans that adapt to your unique needs, whether for individuals, families, or businesses.
+                        </p>
+                    </div>
+                </div>
+                <div class="choose-us-card">
+                    <div class="choose-us-card__thumb">
+                        <div class="choose-us-card__thumb-inner">
+                            <img  class="image1" src="assets/images/thumbs/ch-2.png" alt="">
+                            <img class="image2" src="assets/images/thumbs/ch-2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="choose-us-card__content">
+                        <h4 class="choose-us-card__title">
+                            Affordable Premiums
+                        </h4>
+                        <p class="choose-us-card__desc">
+                            Get the protection you deserve at rates that fit your budget.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="choose-us-wrapper__bottom">
+                <h4 class="title"> Need Help Choosing? </h4>
+                <a href="#" class="btn btn--base"> Contact With Us </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--================= why choose section end here =============== -->
+    <!--========================== Coverage Section Start ==========================-->
+<div class="brand-section py-60 ">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <div class="section-heading style-three">
+                    <h2 class="section-heading__title"> Trust us for insurance solutions </h2>
+                    <p class="section-heading__desc">Lorem ipsum dolor sit  reprehenderit harum id, amet voluptas debitis </p>
+                </div>
+            </div>
+        </div>
+        <div class="client-logos brand-slider">
+            <img src="assets/images/brands/partner1.png" alt="">
+            <img src="assets/images/brands/partner2.png" alt="">
+            <img src="assets/images/brands/partner3.png" alt="">
+            <img src="assets/images/brands/partner4.png" alt="">
+            <img src="assets/images/brands/partner1.png" alt="">
+            <img src="assets/images/brands/partner2.png" alt="">
+            <img src="assets/images/brands/partner6.png" alt="">
+        </div>
+    </div>
+</div>
+<!--========================== Coverage Section End ==========================-->
+    <!--======= step section start here ======= -->
+<div class="step-section py-60">
+    <span class="left-bg"></span>
+    <span class="right-bg"></span>
+    <div class="container">
+        <div class="section-heading">
+            <h2 class="section-heading__title"> Verify Your Insurance Instantly </h2>
+            <p class="section-heading__desc">
+                Quickly access and confirm your policy details using your unique User ID.
+            </p>
+        </div>
+        <div class="step-wrapper">
+            <div class="row gy-4 justify-content-center">
+                <div class="col-lg-6">
+                    <ul class="step-list">
+                        <li class="step-list__item">
+                            <span class="step-list__number"></span>
+                            <div class="step-list__content">
+                                <h4 class="step-list__title"> Enter Your User ID </h4>
+                                <p class="step-list__desc"> Provide your unique User ID associated with your insurance policy. </p>
+                            </div>
+                        </li>
+                        <li class="step-list__item">
+                            <span class="step-list__number"></span>
+                            <div class="step-list__content">
+                                <h4 class="step-list__title"> Verify Your Policy </h4>
+                                <p class="step-list__desc"> Instantly check your coverage details, validity, and policy status. </p>
+                            </div>
+                        </li>
+                        <li class="step-list__item">
+                            <span class="step-list__number"></span>
+                            <div class="step-list__content">
+                                <h4 class="step-list__title"> Access Your Information </h4>
+                                <p class="step-list__desc"> Download your insurance documents or share verification details securely when needed. </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <div class="step-wrapper__right">
+                        <label class="form--label"> Enter Your User ID </label>
+                        <div class="step-wrapper__verify">
+                            <input type="text" class="form--control" placeholder="Enter">
+                            <button type="button" class="btn btn--base"> Verify Now </button>
+                        </div>
+                        <div class="insurance-details">
+                            <span class="insurance-details__title"> Insurance Details </span>
+                            <p class="insurance-details__item"> Insurance Holder Name: <span class="text"> John Ro </span></p>
+                            <p class="insurance-details__item"> Insurance Number: <span class="text"> 45345 </span></p>
+                            <p class="insurance-details__item"> Insurance Holder Name: <span class="text"> John Ro </span></p>
+                            <p class="insurance-details__item"> Insurance Number: <span class="text"> 45345 </span></p>
+                            <p class="insurance-details__item"> Insurance Holder Name: <span class="text"> John Ro </span></p>
+                            <p class="insurance-details__item"> Insurance Number: <span class="text"> 45345 </span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--======= step section end here ======= -->
+
+    <!--========= how work section start here ========= -->
+<div class="how-work-section py-60">
+    <span class="left-bg"></span>
+    <span class="right-bg"></span>
+
+    <div class="container">
+        <div class="section-heading">
+            <h2 class="section-heading__title">  
+                <span class="d-block"> How It Works:  </span>
+                Easy Steps to Get Covered
+            </h2>
+            <p class="section-heading__desc">
+                Simplifying Insurance for a Safer Tomorrow.
+            </p>
+        </div>
+        <div class="row gy-4 justify-content-center">
+            <div class="col-lg-4 col-sm-6"> 
+                <div class="how-work-item">
+                    <div class="how-work-item__thumb">
+                        <img src="assets/images/icons/h-1.png" alt="">
+                    </div>
+                    <h4 class="how-work-item__title"> 1. Explore Your Options </h4>
+                    <p class="how-work-item__desc"> 
+                        Browse our range of insurance plans tailored to your needs.
+                     </p>
+                </div>
+             </div> 
+             <div class="col-lg-4 col-sm-6"> 
+                <div class="how-work-item">
+                    <div class="how-work-item__thumb">
+                        <img src="assets/images/icons/h-2.png" alt="">
+                    </div>
+                    <h4 class="how-work-item__title"> 2. Calculate Your Coverage</h4>
+                    <p class="how-work-item__desc"> 
+                        Use our coverage calculator to understand the protection you need based on your lifestyle or business goals.
+                     </p>
+                </div>
+             </div>
+             <div class="col-lg-4 col-sm-6"> 
+                <div class="how-work-item">
+                    <div class="how-work-item__thumb">
+                        <img src="assets/images/icons/h-3.png" alt="">
+                    </div>
+                    <h4 class="how-work-item__title"> 3. Apply Online </h4>
+                    <p class="how-work-item__desc"> 
+                        Complete your application quickly and securely.
+                     </p>
+                </div>
+             </div>
+        </div>
+        <div class="how-work-section__bottom">
+            <a href="#" class="btn btn--base"> Apply Now </a>
+        </div>
+    </div>
+</div>
+<!--========== how work section end here ========= -->
+
+    <!--====== counter section start here ====== -->
+<div class="counter-section">
+    <div class="counter-section__shape">
+        <img src="assets/images/shapes/t-1.png" alt="">
+    </div>
+    <div class="container">
+        <div class="section-heading">
+            <h2 class="section-heading__title">  Trusted by Thousands, Proven by Numbers <span class="d-block"> 24/7 Support  </span> </h2>
+        </div>
+        <div class="row gy-5 justify-content-center">
+            <div class="col-md-4 col-sm-6">
+                <div class="counter-item">
+                    <div class="counter-item__number">
+                        <span class="odometer" data-odometer-final="12">7</span>M+
+                    </div>
+                    <h4 class="counter-item__title"> Policies Issued </h4>
+                    <p class="counter-item__desc">  
+                        Serving individuals, families, and businesses worldwide.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="counter-item">
+                    <div class="counter-item__number">
+                        <span class="odometer" data-odometer-final="95">80</span>%
+                    </div>
+                    <h4 class="counter-item__title"> Claim Approval Rate </h4>
+                    <p class="counter-item__desc">  
+                        Efficient, hassle-free claim settlements you can count on.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="counter-item">
+                    <div class="counter-item__number">
+                        <span class="odometer" data-odometer-final="10,000">800</span>+
+                    </div>
+                    <h4 class="counter-item__title">  5-Star Reviews </h4>
+                    <p class="counter-item__desc">  
+                        Customer satisfaction is at the heart of everything we do.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!--======== counter section end here ====== -->
+
+    <!--========== popular section start here ========== -->
+<div class="popular-section py-60">
+    <span class="left-bg"></span>
+    <div class="container">
+        <div class="section-heading">
+            <h2 class="section-heading__title">
+                Our Most Popular Insurance 
+                <span class="d-block"> Policies </span>
+            </h2>
+            <p class="section-heading__desc"> Protecting what matters most with plans trusted by thousands. </p>
+        </div>
+        <div class="row gy-4 justify-content-center">
+            <div class="col-lg-4 col-sm-6">
+                <div class="popular-item">
+                    <div class="popular-item__thumb">
+                        <a href="#" class="popular-item__thumb-link">
+                            <img class="image1" src="assets/images/thumbs/p-1.png" alt="img1">
+                            <img class="image2" src="assets/images/thumbs/p-1.png" alt="img2">
+                        </a>
+                    </div>
+                    <div class="popular-item__content">
+                        <h4 class="popular-item__title">
+                            <a href="#" class="popular-item__title-link border-effect"> Life Insurance </a>
+                        </h4>
+                        <div class="advantage-wrapper">
+                            <p class="advantage-wrapper__title"> Benefits: </p>
+                            <ul class="value-list">
+                                <li class="value-list__item">
+                                    <span class="value-list__icon">
+                                        <i class="las la-check-circle"></i>
+                                    </span>
+                                    Secure your family’s future with tailored life insurance plans.
+                                </li>
+                                <li class="value-list__item">
+                                    <span class="value-list__icon">
+                                        <i class="las la-check-circle"></i>
+                                    </span>
+                                    Secure your family’s future with tailored life insurance plans.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="popular-item__bottom">
+                            <button class="btn--white btn w-100"> Get Your Insurance Now </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="popular-item">
+                    <div class="popular-item__thumb">
+                        <a href="#" class="popular-item__thumb-link">
+                            <img class="image1" src="assets/images/thumbs/p-2.png" alt="img1">
+                            <img class="image2" src="assets/images/thumbs/p-2.png" alt="img2">
+                        </a>
+                    </div>
+                    <div class="popular-item__content">
+                        <h4 class="popular-item__title">
+                            <a href="#" class="popular-item__title-link border-effect"> Health Insurance </a>
+                        </h4>
+                        <div class="advantage-wrapper">
+                            <p class="advantage-wrapper__title"> Benefits: </p>
+                            <ul class="value-list">
+                                <li class="value-list__item">
+                                    <span class="value-list__icon">
+                                        <i class="las la-check-circle"></i>
+                                    </span>
+                                    Secure your family’s future with tailored life insurance plans.
+                                </li>
+                                <li class="value-list__item">
+                                    <span class="value-list__icon">
+                                        <i class="las la-check-circle"></i>
+                                    </span>
+                                    Secure your family’s future with tailored life insurance plans.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="popular-item__bottom">
+                            <button class="btn--white btn w-100"> Get Your Insurance Now </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="popular-item">
+                    <div class="popular-item__thumb">
+                        <a href="#" class="popular-item__thumb-link">
+                            <img class="image1" src="assets/images/thumbs/p-3.png" alt="img1">
+                            <img class="image2" src="assets/images/thumbs/p-3.png" alt="img2">
+                        </a>
+                    </div>
+                    <div class="popular-item__content">
+                        <h4 class="popular-item__title">
+                            <a href="#" class="popular-item__title-link border-effect"> Car Insurance </a>
+                        </h4>
+                        <div class="advantage-wrapper">
+                            <p class="advantage-wrapper__title"> Benefits: </p>
+                            <ul class="value-list">
+                                <li class="value-list__item">
+                                    <span class="value-list__icon">
+                                        <i class="las la-check-circle"></i>
+                                    </span>
+                                    Secure your family’s future with tailored life insurance plans.
+                                </li>
+                                <li class="value-list__item">
+                                    <span class="value-list__icon">
+                                        <i class="las la-check-circle"></i>
+                                    </span>
+                                    Secure your family’s future with tailored life insurance plans.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="popular-item__bottom">
+                            <button class="btn--white btn w-100"> Get Your Insurance Now </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--========== popular section end here ============ -->
+
+    <!--========================== Testimonials Section Start ==========================-->
+<section class="testimonials py-60">
+    <span class="right-bg"></span>
+    <div class="container">
+        <div class="section-heading">
+            <h2 class="section-heading__title "> 
+                What Our Customers Say
+                <span class="d-block"> About Us </span>
+             </h2>
+            <p class="section-heading__desc">
+                Real stories from real people who trust us for their protection.
+            </p>
+        </div>
+        <div class="testimonial-slider">
+            <div class="testimonails-card">
+                <div class="testimonial-item">
+                    <div class="testimonial-item__rating">
+                        <ul class="rating-list">
+                            <li class="rating-list__item"><i class="fas fa-star"></i></li>
+                            <li class="rating-list__item"><i class="fas fa-star"></i></li>
+                            <li class="rating-list__item"><i class="fas fa-star"></i></li>
+                            <li class="rating-list__item"><i class="fas fa-star"></i></li>
+                            <li class="rating-list__item"><i class="fas fa-star"></i></li>
+                        </ul>
+                    </div>
+                    <div class="testimonial-item__content">
+                        <p class="testimonial-item__title"> Excellent Service </p>
+                        <p class="testimonial-item__desc"> 
+                            "I couldn’t be happier with the support I received! The claims process was smooth and quick. Highly recommend!" 
+                        </p>
+                    </div>
+                    <div class="testimonial-item__info">
+
+                        <div class="testimonial-item__thumb">
+                            <img src="assets/images/thumbs/ch-1.png" class="fit-image" alt="">
+                        </div>
+                        <div class="testimonial-item__details">
+                            <p class="testimonial-item__name"> Olivia Rhye </p>
+                            <span class="testimonial-item__designation"> Life Insurance Policyholder </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonails-card">
+                <div class="testimonial-item">
+                    <div class="testimonial-item__rating">
+                        <ul class="rating-list">
+                            <li class="rating-list__item"><i class="fas fa-star"></i></li>
+                            <li class="rating-list__item"><i class="fas fa-star"></i></li>
+                            <li class="rating-list__item"><i class="fas fa-star"></i></li>
+                            <li class="rating-list__item"><i class="fas fa-star"></i></li>
+                            <li class="rating-list__item"><i class="fas fa-star"></i></li>
+                        </ul>
+                    </div>
+                    <div class="testimonial-item__content">
+                        <p class="testimonial-item__title"> Excellent Service </p>
+                        <p class="testimonial-item__desc"> 
+                            "I couldn’t be happier with the support I received! The claims process was smooth and quick. Highly recommend!" 
+                        </p>
+                    </div>
+                    <div class="testimonial-item__info">
+
+                        <div class="testimonial-item__thumb">
+                            <img src="assets/images/thumbs/ch-1.png" class="fit-image" alt="">
+                        </div>
+                        <div class="testimonial-item__details">
+                            <p class="testimonial-item__name"> Olivia Rhye </p>
+                            <span class="testimonial-item__designation"> Life Insurance Policyholder </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonails-card">
+                <div class="testimonial-item">
+                    <div class="testimonial-item__rating">
+                        <ul class="rating-list">
+                            <li class="rating-list__item"><i class="fas fa-star"></i></li>
+                            <li class="rating-list__item"><i class="fas fa-star"></i></li>
+                            <li class="rating-list__item"><i class="fas fa-star"></i></li>
+                            <li class="rating-list__item"><i class="fas fa-star"></i></li>
+                            <li class="rating-list__item"><i class="fas fa-star"></i></li>
+                        </ul>
+                    </div>
+                    <div class="testimonial-item__content">
+                        <p class="testimonial-item__title"> Excellent Service </p>
+                        <p class="testimonial-item__desc"> 
+                            "I couldn’t be happier with the support I received! The claims process was smooth and quick. Highly recommend!" 
+                        </p>
+                    </div>
+                    <div class="testimonial-item__info">
+
+                        <div class="testimonial-item__thumb">
+                            <img src="assets/images/thumbs/ch-1.png" class="fit-image" alt="">
+                        </div>
+                        <div class="testimonial-item__details">
+                            <p class="testimonial-item__name"> Olivia Rhye </p>
+                            <span class="testimonial-item__designation"> Life Insurance Policyholder </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonails-card">
+                <div class="testimonial-item">
+                    <div class="testimonial-item__rating">
+                        <ul class="rating-list">
+                            <li class="rating-list__item"><i class="fas fa-star"></i></li>
+                            <li class="rating-list__item"><i class="fas fa-star"></i></li>
+                            <li class="rating-list__item"><i class="fas fa-star"></i></li>
+                            <li class="rating-list__item"><i class="fas fa-star"></i></li>
+                            <li class="rating-list__item"><i class="fas fa-star"></i></li>
+                        </ul>
+                    </div>
+                    <div class="testimonial-item__content">
+                        <p class="testimonial-item__title"> Excellent Service </p>
+                        <p class="testimonial-item__desc"> 
+                            "I couldn’t be happier with the support I received! The claims process was smooth and quick. Highly recommend!" 
+                        </p>
+                    </div>
+                    <div class="testimonial-item__info">
+
+                        <div class="testimonial-item__thumb">
+                            <img src="assets/images/thumbs/ch-1.png" class="fit-image" alt="">
+                        </div>
+                        <div class="testimonial-item__details">
+                            <p class="testimonial-item__name"> Olivia Rhye </p>
+                            <span class="testimonial-item__designation"> Life Insurance Policyholder </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!--========================== Testimonials Section End ==========================-->
+    <!--============ faq section start here ============ -->
+<div class="faq-section py-60">
+    <span class="right-bg"></span>
+    <div class="container">
+        <div class="section-heading">
+            <h2 class="section-heading__title">
+                Frequently Asked Questions
+            </h2>
+            <p class="section-heading__desc">
+                Reach out to us if you have questions or encounter problems
+            </p>
+        </div>
+        <div class="accordion custom--accordion" id="accordionExample">
+            <div class="row gy-4">
+                <div class="col-lg-6">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                How do I plan a budget for a big event, like a wedding?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus totam sed
+                                    voluptatibus eius impedit itaque esse repellendus, recusandae mollitia natus?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                How do I create a household budget?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita adipisci
+                                    ducimus laboriosam quas, quidem doloremque tenetur rem animi tempora.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                What is the capital of the United States?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic assumenda excepturi
+                                    doloremque perspiciatis ex quos?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                What is climate change, and how does it impact the planet?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic assumenda excepturi
+                                    doloremque perspiciatis ex quos?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                What is the difference between weather and climate?
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic assumenda excepturi
+                                    doloremque perspiciatis ex quos?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTen">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                What are the key factors to consider when buying a car?
+                            </button>
+                        </h2>
+                        <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus totam sed
+                                    voluptatibus eius impedit itaque esse repellendus, recusandae mollitia natus?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingEleven">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                                What is the scientific method?
+                            </button>
+                        </h2>
+                        <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita adipisci
+                                    ducimus laboriosam quas, quidem doloremque tenetur rem animi tempora.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwelve">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+                                What is the significance of the Mona Lisa painting?
+                            </button>
+                        </h2>
+                        <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic assumenda excepturi
+                                    doloremque perspiciatis ex quos?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThirteen">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+                                How do I choose the right college or university?
+                            </button>
+                        </h2>
+                        <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingThirteen"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic assumenda excepturi
+                                    doloremque perspiciatis ex quos?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFifteen">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
+                                What is the importance of recycling?
+                            </button>
+                        </h2>
+                        <div id="collapseFifteen" class="accordion-collapse collapse" aria-labelledby="headingFifteen"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic assumenda excepturi
+                                    doloremque perspiciatis ex quos?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="faq-section__bottom">
+            <h4 class="title"> Still have a questions? </h4>
+            <p class="desc"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+            <div class="faq-section__btn">
+                <a href="#" class="btn btn--base"> Contact With US </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--============ faq section end here ============ -->
+    <!-- ==================== Blog Start Here ==================== -->
+<section class="blog py-60">
+    <span class="left-bg"></span>
+    <div class="container">
+        <div class="section-heading">
+            <h2 class="section-heading__title">Latest Updates and News </h2>
+            <p class="section-heading__desc">
+                Stay informed, stay protected. Explore expert tips, industry updates, and advice tailored to your needs.
+            </p>
+        </div>
+        <div class="row gy-4 justify-content-center">
+            <div class="col-md-6">
+                <div class="blog-item">
+                    <div class="blog-item__thumb">
+                        <a href="blog-details.html" class="blog-item__thumb-link">
+                            <img class="image1" src="assets/images/thumbs/bl-3.png" alt="img1">
+                            <img class="image2" src="assets/images/thumbs/bl-3.png" alt="img2">
+                        </a>
+                    </div>
+                    <div class="blog-item__content">
+                        <h4 class="blog-item__title"><a href="blog-details.html" class="blog-item__title-link border-effect">
+                            5 Tips to Choose the Right Insurance Plan</a>
+                        </h4>
+                        <p class="blog-item__desc">
+                            Confused about which plan is best for you? Discover practical advice to make an informed decision.
+                        </p>
+                        <div class="blog-item__bottom">
+                            <span class="title"> Published </span>
+                            <ul class="text-list flex-align">
+                                <li class="text-list__item fs-14"> 18 Jun 2025 </li>
+                                <li class="text-list__item fs-14"> 5 min read </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="blog-item">
+                    <div class="blog-item__thumb">
+                        <a href="blog-details.html" class="blog-item__thumb-link">
+                            <img class="image1" src="assets/images/thumbs/bl-1.png" alt="img1">
+                            <img class="image2" src="assets/images/thumbs/bl-1.png" alt="img2">
+                        </a>
+                    </div>
+                    <div class="blog-item__content">
+                        <h4 class="blog-item__title"><a href="blog-details.html" class="blog-item__title-link border-effect">
+                            5 Tips to Choose the Right Insurance Plan</a>
+                        </h4>
+                        <p class="blog-item__desc">
+                            Confused about which plan is best for you? Discover practical advice to make an informed decision.
+                        </p>
+                        <div class="blog-item__bottom">
+                            <span class="title"> Published </span>
+                            <ul class="text-list flex-align">
+                                <li class="text-list__item fs-14"> 18 Jun 2025 </li>
+                                <li class="text-list__item fs-14"> 5 min read </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="blog-item">
+                    <div class="blog-item__thumb">
+                        <a href="blog-details.html" class="blog-item__thumb-link">
+                            <img class="image1" src="assets/images/thumbs/bl-4.png" alt="img1">
+                            <img class="image2" src="assets/images/thumbs/bl-4.png" alt="img2">
+                        </a>
+                    </div>
+                    <div class="blog-item__content">
+                        <h4 class="blog-item__title"><a href="blog-details.html" class="blog-item__title-link border-effect">
+                            5 Tips to Choose the Right Insurance Plan</a>
+                        </h4>
+                        <p class="blog-item__desc">
+                            Confused about which plan is best for you? Discover practical advice to make an informed decision.
+                        </p>
+                        <div class="blog-item__bottom">
+                            <span class="title"> Published </span>
+                            <ul class="text-list flex-align">
+                                <li class="text-list__item fs-14"> 18 Jun 2025 </li>
+                                <li class="text-list__item fs-14"> 5 min read </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="blog-item">
+                    <div class="blog-item__thumb">
+                        <a href="blog-details.html" class="blog-item__thumb-link">
+                            <img class="image1" src="assets/images/thumbs/bl-2.png" alt="img1">
+                            <img class="image2" src="assets/images/thumbs/bl-2.png" alt="img2">
+                        </a>
+                    </div>
+                    <div class="blog-item__content">
+                        <h4 class="blog-item__title"><a href="blog-details.html" class="blog-item__title-link border-effect">
+                            5 Tips to Choose the Right Insurance Plan</a>
+                        </h4>
+                        <p class="blog-item__desc">
+                            Confused about which plan is best for you? Discover practical advice to make an informed decision.
+                        </p>
+                        <div class="blog-item__bottom">
+                            <span class="title"> Published </span>
+                            <ul class="text-list flex-align">
+                                <li class="text-list__item fs-14"> 18 Jun 2025 </li>
+                                <li class="text-list__item fs-14"> 5 min read </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blog__bottom">
+            <button class="btn--base btn"> View All</button>
+        </div>
+    </div>
+</section>
+<!-- ==================== Blog End Here ==================== -->
+    <!--============= cta section start here ============= -->
+<div class="cta-section">
+    <div class="cta-section__shape">
+        <img src="assets/images/shapes/t-1.png" alt="">
+    </div>
+    <div class="container">
+        <div class="cta-wrapper">
+            <div class="cta-wrapper__left">
+                <h2 class="cta-wrapper__title"> 
+                    Fast, Reliable, and Easy Insurance
+                 </h2>
+                 <p class="cta-wrapper__desc"> Apply online in just minutes and stay protected. </p>
+                 <div class="cta-wrapper__btn">
+                     <button class="btn--white btn"> Start Now </button>
+                 </div>
+            </div>
+            <div class="cta-wrapper__right">
+                <div class="cta-wrapper__thumb">
+                    <img src="assets/images/thumbs/cta-1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--============= cta section end here ============= -->
+
+
+
+    
+
+</main>
+<!-- Footer -->
+<!-- ==================== Footer Start Here ==================== -->
+<footer class="footer-area">
+    <div class="pt-60">
+        <div class="container">
+            <div class="top-footer">
+                <div class="top-footer__left">
+                    <h6 class="top-footer__title"> Join our newsletter </h6>
+                    <p class="top-footer__desc"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                </div>
+                <div class="top-footer__right">
+                    <div class="top-footer__mail">
+                        <input type="email" class="form--control" placeholder="Enter email">
+                        <button type="button" class="btn--white btn"> Subscribe </button>
+                    </div>
+                    <p class="top-footer__text"> Stay up to date with the latest news, announcements, and articles. </p>
+                </div>
+            </div>
+            <div class="row justify-content-center gy-5">
+                <div class="col-xl-5 col-sm-6 col-xsm-6 pe-xl-5">
+                    <div class="footer-item">
+                        <div class="footer-item__logo">
+                            <a href="index.html"> <img src="assets/images/logo/logo-2.png" alt=""></a>
+                        </div>
+                        <h6 class="title"> Protecting lives, securing futures. </h6>
+                        <p class="footer-item__desc">
+                            Trusted insurance solutions tailored for individuals, families, and businesses.
+                        </p>
+                        <div class="social-list-wrapper">
+                            <h6 class="social-list-wrapper__title"> Stay Connected </h6>
+                            <ul class="social-list">
+                                <li class="social-list__item">
+                                    <a href="https://www.facebook.com" class="social-list__link flex-center">
+                                        <i class="fa-brands fa-square-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="social-list__item">
+                                    <a href="https://www.twitter.com" class="social-list__link flex-center"> 
+                                        <i class="fa-brands fa-x-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="social-list__item">
+                                    <a href="https://www.linkedin.com" class="social-list__link flex-center"> 
+                                        <i class="fa-brands fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li class="social-list__item">
+                                    <a href="https://www.pinterest.com" class="social-list__link flex-center"> 
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-sm-6 col-xsm-6">
+                    <div class="footer-item">
+                        <h6 class="footer-item__title"> Quick Links </h6>
+                        <ul class="footer-menu">
+                            <li class="footer-menu__item"><a href="#" class="footer-menu__link"> About Us </a></li>
+                            <li class="footer-menu__item"><a href="#" class="footer-menu__link"> Our Insurances </a></li>
+                            <li class="footer-menu__item"><a href="#" class="footer-menu__link"> Claims Process </a></li>
+                            <li class="footer-menu__item"><a href="#" class="footer-menu__link"> Blog </a></li>
+                            <li class="footer-menu__item"><a href="#" class="footer-menu__link"> FAQs </a></li>
+                            <li class="footer-menu__item"><a href="#" class="footer-menu__link"> Contact Us </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-sm-6 col-xsm-6">
+                    <div class="footer-item">
+                        <h6 class="footer-item__title"> Popular Policies </h6>
+                        <ul class="footer-menu">
+                            <li class="footer-menu__item"><a href="#" class="footer-menu__link"> Life Insurance</a></li>
+                            <li class="footer-menu__item"><a href="#" class="footer-menu__link"> Health Insurance </a></li>
+                            <li class="footer-menu__item"><a href="#" class="footer-menu__link"> Car Insurance </a></li>
+                            <li class="footer-menu__item"><a href="#" class="footer-menu__link"> Home Insurance </a></li>
+                            <li class="footer-menu__item"><a href="#" class="footer-menu__link"> Travel Insurance </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 col-xsm-6">
+                    <div class="footer-item">
+                        <h6 class="footer-item__title"> Support </h6>
+                        <ul class="footer-contact-menu">
+                            <li class="footer-contact-menu__item">
+                                <p class="text"> Address: </p>
+                                <div class="footer-contact-menu__item-content">
+                                    <p> 4517 Washington Ave. Manchester, Kentucky 39495 </p>
+                                </div>
+                            </li>
+                            <li class="footer-contact-menu__item">
+                                <p class="text"> Email:</p>
+                                <div class="footer-contact-menu__item-content">
+                                    <p>democompany@gmail.com</p>
+                                </div>
+                            </li>
+                            <li class="footer-contact-menu__item">
+                                <p class="text"> Phone: </p>
+                                <div class="footer-contact-menu__item-content">
+                                    <p>123 - 456 - 7890 </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- bottom Footer -->
+            <div class="bottom-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <p class="bottom-footer-text text-white"> &copy; Copyright 2025 . All rights reserved.</p>
+                            <p class="bottom-footer__desc"> Your trusted partner in protection. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Top End-->
+
+</footer>
+<!-- ==================== Footer End Here ==================== -->
+<!-- Jquery js -->
+<script src="assets/js/jquery-3.7.1.min.js"></script>
+<!-- Bootstrap Bundle Js -->
+<script src="assets/js/boostrap.bundle.min.js"></script>
+<!-- Slick js -->
+<script src="assets/js/slick.min.js"></script>
+<script src="assets/js/img-uploader.main.js"></script>
+<!-- select2 js  -->
+<script src="assets/js/select2.min.js"></script>
+<!-- odometer js  -->
+<script src="assets/js/odometer.min.js"></script>
+<!-- viewport js  -->
+<script src="assets/js/viewport.jquery.js"></script>
+<!-- main js -->
+<script src="assets/js/main.js"></script>
+</body>
+
+</html>
